@@ -1,0 +1,31 @@
+//* ========================================================================
+//   #COLORS
+//   ======================================================================== */
+// color palette: http://loveyourpalette.com/#/A5DFF9/EF5285/333333/EEEEEE/FFFFFF/?_k=jmt0wt
+
+
+$color-brand:            #ef5285;
+$color-brand--highlight: lighten($color-brand, 15%);
+$color-brand--shadow:    darken($color-brand, 15%);
+
+$color-primary:          #a5dff9;
+
+$color-accent:           #60c5ba;
+$color-accent--shadow:   darken($color-accent, 15%);
+
+$color-gray:             #666;
+$color-gray--light:      #eee;
+$color-gray--dark:       #333;
+
+
+
+// Buttons
+$color-btn:         $color-brand;
+$color-btn--hover:  $color-brand--shadow;
+
+// Text 
+$color-text:        $color-gray--dark;
+
+// Links 
+$color-link:        $color-accent;
+$color-link--hover: $color-accent--shadow;
