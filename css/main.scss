@@ -80,7 +80,7 @@
 @import "tools.font-size";
 @import "tools.clearfix";
 @import "tools.hidden";
-@import "mq";
+@import "tools.mq";
 
 
 
@@ -101,6 +101,7 @@
 @import "elements.headings";
 @import "elements.images";
 @import "elements.tables";
+@import "elements.links";
 
 
 
@@ -131,7 +132,7 @@
 // Build and include your project’s UI Compoments here.
 @import "components.buttons";
 @import "components.avatars";
-
+@import "components.social";
 
 
 
