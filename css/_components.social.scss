@@ -3,5 +3,13 @@
    ========================================================================== */
 
 .social-links {
-  
+  text-align: center;
+  @include inuit-font-size(20px);
+}
+
+.social-links__item {
+
+  &:not(:last-child)::after {
+    content: "|"
+  }
 }
