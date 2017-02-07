@@ -54,6 +54,10 @@
  * COMPONENTS
  * Buttons..............An example button component, and how it fits into the
  *                      inuitcss framework.
+ * Avatars..............Image styles for avatar purposes
+ * Social...............Social links
+ * Icons................Icons styles
+ * Page-footer..........Page footer styles
  *
  * UTILITIES
  * Clearfix.............Bind our clearfix onto a utility class.
@@ -63,6 +67,7 @@
  *                      classes.
  * Print................Reset-like styles taken from the HTML5 Boilerplate.
  * Hide.................Helper classes to hide content
+ * Type.................Utility classes for typography
  */
 /* ==========================================================================
    #BOX-SIZING
@@ -572,7 +577,8 @@ html {
   min-height: 100%;
   /* [3] */
   color: #333;
-  background-color: #eee; }
+  background-color: #eef;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
 
 /* ==========================================================================
    #HEADINGS
@@ -654,9 +660,11 @@ table {
 //   ======================================================================== */
 a {
   text-decoration: none;
-  color: #40837B; }
+  color: #e01557;
+  transition: all 0.2s ease-in; }
   a:hover {
-    color: #27504b; }
+    color: #ed3b75;
+    text-decoration: underline; }
 
 /* ==========================================================================
    #WRAPPER
@@ -1498,13 +1506,28 @@ a {
    #SOCIAL
    ========================================================================== */
 .social-links {
-  text-align: center;
+  text-align: center; }
+
+.social-links__item {
   font-size: 20px;
   font-size: 1.25rem;
-  line-height: 1.2; }
+  line-height: 1.2;
+  font-weight: 700; }
+  .social-links__item:not(:last-child)::after {
+    content: "|";
+    color: #666; }
 
-.social-links__item:not(:last-child)::after {
-  content: "|"; }
+/* ==========================================================================
+   #ICONS
+   ========================================================================== */
+.c-svg-icon {
+  fill: #333; }
+
+/* ==========================================================================
+   #PAGE-FOOTER
+   ========================================================================== */
+.c-page-footer {
+  text-align: center; }
 
 /* ==========================================================================
    #CLEARFIX
@@ -3878,5 +3901,13 @@ a {
  */
 .u-hidden {
   display: none !important; }
+
+/* ==========================================================================
+   #TYPE
+   ========================================================================== */
+.u-text-noticable {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.2; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,12 +1,13 @@
 //* ========================================================================
 //   #COLORS
 //   ======================================================================== */
-// color palette: http://loveyourpalette.com/#/A5DFF9/EF5285/333333/EEEEEE/FFFFFF/?_k=jmt0wt
+// color palette: http://loveyourpalette.com/#/A5DFF9/EF5285/333333/EEEEFF/FFFFFF/?_k=jmt0wt
 
 
-$color-brand:              #ef5285;
-$color-brand--highlight:   lighten($color-brand, 15%);
-$color-brand--shadow:       darken($color-brand, 15%);
+// $color-brand:              #ef5285;
+$color-brand:              #e01557;
+$color-brand--highlight:   lighten($color-brand, 10%);
+$color-brand--shadow:       darken($color-brand, 10%);
   
 $color-primary:            #a5dff9;
 $color-primary--highlight: lighten($color-primary, 10%);
@@ -15,19 +16,22 @@ $color-accent:             #40837B;
 $color-accent--shadow:     darken($color-accent, 15%);
    
 $color-gray:               #666;
-$color-gray--light:        #eee;
-$color-gray--dark:         #333;
+$color-gray--highlight:    #eef;
+$color-gray--shadow:       #333;
 
 // Page
-$color-base-background: $color-gray--light;
+$color-base-background: $color-gray--highlight;
 
 // Buttons
 $color-btn:             $color-brand;
 $color-btn--hover:      $color-brand--shadow;
     
 // Text     
-$color-text:            $color-gray--dark;
+$color-text:            $color-gray--shadow;
     
 // Links    
-$color-link:            $color-accent;
-$color-link--hover:     $color-accent--shadow;
+$color-link:            $color-brand;
+$color-link--hover:     $color-brand--highlight;
+
+// Icons
+$color-icon:            $color-gray--shadow;

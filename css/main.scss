@@ -55,6 +55,10 @@
  * COMPONENTS
  * Buttons..............An example button component, and how it fits into the
  *                      inuitcss framework.
+ * Avatars..............Image styles for avatar purposes
+ * Social...............Social links
+ * Icons................Icons styles
+ * Page-footer..........Page footer styles
  *
  * UTILITIES
  * Clearfix.............Bind our clearfix onto a utility class.
@@ -64,6 +68,7 @@
  *                      classes.
  * Print................Reset-like styles taken from the HTML5 Boilerplate.
  * Hide.................Helper classes to hide content
+ * Type.................Utility classes for typography
  */
 
 // SETTINGS
@@ -133,6 +138,10 @@
 @import "components.buttons";
 @import "components.avatars";
 @import "components.social";
+@import "components.icons";
+@import "components.page-footer";
+
+
 
 
 
@@ -145,3 +154,4 @@ $inuit-offsets: true;
 @import "utilities.spacings";
 @import "utilities.print";
 @import "utilities.hide";
+@import "utilities.type";

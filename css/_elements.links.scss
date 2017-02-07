@@ -5,8 +5,10 @@
 a {
   text-decoration: none;
   color: $color-link;
+  transition: all 0.2s ease-in;
 
   &:hover {
     color: $color-link--hover;
+    text-decoration: underline;
   }
 }
