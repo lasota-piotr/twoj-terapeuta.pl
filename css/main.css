@@ -54,10 +54,10 @@
  * COMPONENTS
  * Buttons..............An example button component, and how it fits into the
  *                      inuitcss framework.
- * Avatars..............Image styles for avatar purposes
- * Social...............Social links
- * Icons................Icons styles
- * Page-footer..........Page footer styles
+ * Avatars..............Image styles for avatar purposes.
+ * Social...............Social links.
+ * Icons................Icons styles.
+ * Page-footer..........Page footer styles.
  *
  * UTILITIES
  * Clearfix.............Bind our clearfix onto a utility class.
@@ -66,8 +66,9 @@
  * Spacings.............Nudge bits of the DOM around with these spacing
  *                      classes.
  * Print................Reset-like styles taken from the HTML5 Boilerplate.
- * Hide.................Helper classes to hide content
- * Type.................Utility classes for typography
+ * Hide.................Helper classes to hide content.
+ * Type.................Utility classes for typography.
+ * Links................Utility classes for links.
  */
 /* ==========================================================================
    #BOX-SIZING
@@ -3908,6 +3909,13 @@ a {
 .u-text-noticable {
   font-size: 20px;
   font-size: 1.25rem;
-  line-height: 1.2; }
+  line-height: 1.5; }
+
+/* ==========================================================================
+   #Utilty links
+   ========================================================================== */
+.u-link-natural {
+  text-decoration: underline !important;
+  color: inherit !important; }
 
 /*# sourceMappingURL=main.css.map */

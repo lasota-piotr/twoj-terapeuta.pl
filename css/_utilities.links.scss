@@ -1,7 +1,8 @@
 /* ==========================================================================
-   #TYPE
+   #Utilty links
    ========================================================================== */
 
-.u-text-noticable {
-  @include inuit-font-size(20px, 1.5);
+.u-link-natural {
+  text-decoration: underline !important;
+  color: inherit !important;
 }
