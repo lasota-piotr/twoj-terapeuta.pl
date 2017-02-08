@@ -5,3 +5,11 @@
 .u-text-noticable {
   @include inuit-font-size(20px, 1.5);
 }
+
+.u-text-prominent {
+  font-weight: $font-weight--bold !important;
+}
+
+.u-text-banner {
+  text-align: center !important;
+}

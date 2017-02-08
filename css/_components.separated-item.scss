@@ -1,16 +1,9 @@
 /* ==========================================================================
-   #SOCIAL
+   #SEPARATED ITEM
    ========================================================================== */
 
-.social-links {
-  text-align: center;
+.c-separated-item {
   
-}
-
-.social-links__item {
-  @include inuit-font-size(20px);
-  font-weight: $font-weight--bold;
-
   &:not(:last-child)::after {
     content: "|";
     color: $color-gray;

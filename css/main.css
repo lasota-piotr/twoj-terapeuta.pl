@@ -55,7 +55,7 @@
  * Buttons..............An example button component, and how it fits into the
  *                      inuitcss framework.
  * Avatars..............Image styles for avatar purposes.
- * Social...............Social links.
+ * Separated item.......Item width decoration.
  * Icons................Icons styles.
  * Page-footer..........Page footer styles.
  *
@@ -1504,19 +1504,11 @@ a {
   border-radius: 50%; }
 
 /* ==========================================================================
-   #SOCIAL
+   #SEPARATED ITEM
    ========================================================================== */
-.social-links {
-  text-align: center; }
-
-.social-links__item {
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 1.2;
-  font-weight: 700; }
-  .social-links__item:not(:last-child)::after {
-    content: "|";
-    color: #666; }
+.c-separated-item:not(:last-child)::after {
+  content: "|";
+  color: #666; }
 
 /* ==========================================================================
    #ICONS
@@ -1527,9 +1519,6 @@ a {
 /* ==========================================================================
    #PAGE-FOOTER
    ========================================================================== */
-.c-page-footer {
-  text-align: center; }
-
 /* ==========================================================================
    #CLEARFIX
    ========================================================================== */
@@ -3911,8 +3900,14 @@ a {
   font-size: 1.25rem;
   line-height: 1.5; }
 
+.u-text-prominent {
+  font-weight: 700 !important; }
+
+.u-text-banner {
+  text-align: center !important; }
+
 /* ==========================================================================
-   #Utilty links
+   #LINKS
    ========================================================================== */
 .u-link-natural {
   text-decoration: underline !important;
